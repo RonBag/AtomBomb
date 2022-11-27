@@ -58175,6 +58175,13 @@
 	},
 /turf/open/indestructible/ground/outside/water,
 /area/f13/wasteland)
+"tUV" = (
+/obj/structure/stairs/south{
+	color = "#A47449"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "tUX" = (
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/dirt,
@@ -130145,7 +130152,7 @@ eBH
 hrE
 csG
 csG
-csG
+tUV
 csG
 hrE
 aqx
