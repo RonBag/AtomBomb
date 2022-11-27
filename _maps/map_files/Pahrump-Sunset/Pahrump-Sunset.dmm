@@ -48115,12 +48115,6 @@
 "phv" = (
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland/khans)
-"phB" = (
-/obj/structure/chair/booth{
-	icon_state = "booth_west_south"
-	},
-/turf/open/floor/wood_fancy/wood_fancy_dark,
-/area/f13/city)
 "phP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/wood/post{
@@ -58181,13 +58175,6 @@
 	},
 /turf/open/indestructible/ground/outside/water,
 /area/f13/wasteland)
-"tUV" = (
-/obj/structure/stairs/south{
-	color = "#A47449"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "tUX" = (
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/dirt,
@@ -102322,7 +102309,7 @@ eRX
 hgP
 vOs
 jvm
-phB
+klD
 lcg
 huu
 ean
@@ -103093,7 +103080,7 @@ eRX
 hgP
 vOs
 jvm
-phB
+klD
 xvy
 huu
 ean
@@ -130158,7 +130145,7 @@ eBH
 hrE
 csG
 csG
-tUV
+csG
 csG
 hrE
 aqx
