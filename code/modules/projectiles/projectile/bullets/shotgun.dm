@@ -42,30 +42,6 @@
 	damage_falloff = BULLET_FALLOFF_DEFAULT_SHOTGUN_PELLET
 	zone_accuracy_type = ZONE_WEIGHT_SHOTGUN
 
-/* rubber pellet
- * DAMAGE: 1
- * STAMIN: 11
- * RECOIL: 2
- * WOUNDS: 0
- * WNAKED: 0
- */
-/obj/item/projectile/bullet/pellet/shotgun_rubbershot
-	name = "rubbershot pellet"
-	damage = BULLET_DAMAGE_SHOTGUN_PELLET * BULLET_SURPLUS_MULT * RUBBERY_DAMAGE_MULT
-	stamina = RUBBERY_STAMINA_SHOTGUN_PELLET * BULLET_SURPLUS_MULT
-	spread = BULLET_SPREAD_SURPLUS
-	recoil = BULLET_RECOIL_SHOTGUN_SLUG
-
-	wound_bonus = RUBBERY_WOUND_SHOTGUN_PELLET * BULLET_SURPLUS_MULT
-	bare_wound_bonus = RUBBERY_WOUND_SHOTGUN_PELLET * BULLET_NAKED_WOUND_MULT
-	wound_falloff_tile = BULLET_WOUND_FALLOFF_SHOTGUN_PELLET
-
-	pixels_per_second = BULLET_SPEED_SHOTGUN_PELLET
-	sharpness = SHARP_NONE
-	embedding = null
-	damage_falloff = BULLET_FALLOFF_DEFAULT_SHOTGUN_PELLET
-	zone_accuracy_type = ZONE_WEIGHT_PRECISION
-
 /* handload pellet
  * DAMAGE: 8
  * STAMIN: 1

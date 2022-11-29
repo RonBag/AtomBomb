@@ -102,17 +102,6 @@
 	icon_state = "heshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_frag12
 
-/obj/item/ammo_casing/shotgun/rubbershot
-	name = "rubber shot"
-	desc = "A shotgun casing filled with densely-packed rubber balls, used to incapacitate crowds from a distance."
-	icon_state = "bshell"
-	projectile_type = /obj/item/projectile/bullet/pellet/shotgun_rubbershot
-	pellets = 6
-	variance = 25
-	custom_materials = list(
-		/datum/material/iron = MATS_SHOTGUN_CASING + MATS_SHOTGUN_BULLET,
-		/datum/material/blackpowder = MATS_SHOTGUN_POWDER * MATS_AMMO_POWDER_HANDLOAD_MULT)
-
 /obj/item/ammo_casing/shotgun/ion
 	name = "ion shell"
 	desc = "An advanced shotgun shell which uses a subspace ansible crystal to produce an effect similar to a standard ion rifle. \

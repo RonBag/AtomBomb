@@ -2335,7 +2335,6 @@
 /turf/open/floor/pod/dark,
 /area/awaymission/vr/bos/casino)
 "oh" = (
-/obj/item/ammo_casing/shotgun/rubbershot,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light,
 /turf/open/floor/f13/wood{
@@ -2343,7 +2342,6 @@
 	},
 /area/awaymission/vr/bos/casino)
 "oi" = (
-/obj/item/ammo_casing/shotgun/rubbershot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
@@ -3217,7 +3215,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/holodeck/bos/programs/medical)
 "uX" = (
-/obj/item/ammo_casing/shotgun/rubbershot,
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/supermutant/nightkin,
 /turf/open/floor/carpet/green,
@@ -3665,7 +3662,6 @@
 /turf/open/floor/circuit/red,
 /area/awaymission/vr/public/deathmatch)
 "xL" = (
-/obj/item/ammo_casing/shotgun/rubbershot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/green,
 /area/awaymission/vr/bos/casino)
@@ -4724,7 +4720,6 @@
 	},
 /area/awaymission/vr/bos/enclavebunker)
 "Hg" = (
-/obj/item/ammo_casing/shotgun/rubbershot,
 /turf/open/floor/carpet/green,
 /area/awaymission/vr/bos/casino)
 "Hh" = (
@@ -4879,7 +4874,6 @@
 /turf/open/floor/plasteel/bluespace,
 /area/awaymission/vr/public/deathmatch/red)
 "Ix" = (
-/obj/item/ammo_casing/shotgun/rubbershot,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},

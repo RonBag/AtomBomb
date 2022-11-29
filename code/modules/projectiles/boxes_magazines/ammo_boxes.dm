@@ -63,12 +63,6 @@
 	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
 	icon_state = "bbox"
 
-/obj/item/ammo_box/shotgun/rubber
-	name = "Rubbershot shotgun ammo box"
-	desc = "A box full of shotgun shells."
-	ammo_type = /obj/item/ammo_casing/shotgun/rubbershot
-	icon_state = "stunbox"
-
 /obj/item/ammo_box/shotgun/improvised
 	name = "homemade shotgun shells"
 	desc = "Recycled paper, plastic, little pieces of metal and gunpowder. Loud but not very effective."
@@ -729,9 +723,6 @@
 */
 /obj/item/ammo_box/shotgun/loaded
 	start_empty = FALSE
-
-/obj/item/ammo_box/shotgun/loaded/rubbershot
-	ammo_type = /obj/item/ammo_casing/shotgun/rubbershot
 
 /obj/item/ammo_box/shotgun/loaded/buckshot
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot

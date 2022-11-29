@@ -195,13 +195,6 @@
 	build_path = /obj/item/ammo_box/shotgun/bean
 	category = list("initial", "Simple Ammo")
 
-/datum/design/ammolathe/rubbershot
-	name = "rubbershot shotgun box"
-	id = "rubbershot"
-	materials = list(/datum/material/iron = 8000, /datum/material/blackpowder = 1000)
-	build_path = /obj/item/ammo_box/shotgun/rubber
-	category = list("initial", "Simple Ammo")
-
 /datum/design/ammolathe/lethalshot
 	name = "buckshot shotgun box"
 	id = "lethalshot"
@@ -843,13 +836,6 @@
 	id = "handloader_beanbag"
 	materials = list(/datum/material/iron = 8000, /datum/material/blackpowder = 1000)
 	build_path = /obj/item/ammo_box/shotgun/bean
-	category = list("initial", "Handloaded Ammo")
-
-/datum/design/ammolathe/improvised/rubbershot
-	name = "rubbershot shotgun box"
-	id = "handloader_rubbershot"
-	materials = list(/datum/material/iron = 8000, /datum/material/blackpowder = 1000)
-	build_path = /obj/item/ammo_box/shotgun/rubber
 	category = list("initial", "Handloaded Ammo")
 
 /datum/design/ammolathe/improvised/a223
