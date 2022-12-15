@@ -686,7 +686,8 @@ GLOBAL_LIST_INIT(main_body_parts, list(
 #define FULL_AUTO_300		list(mode_name = "full auto",  mode_desc = "300 rounds per minute",   automatic = 1, fire_delay = 2.5, burst_size = 1, icon="auto")
 #define FULL_AUTO_400		list(mode_name = "full auto",  mode_desc = "400 rounds per minute",   automatic = 1, fire_delay = 2, burst_size = 1, icon="auto")
 #define FULL_AUTO_600		list(mode_name = "full auto",  mode_desc = "600 rounds per minute",   automatic = 1, fire_delay = 1.5, burst_size = 1, icon="auto")
-#define FULL_AUTO_800		list(mode_name = "fuller auto",  mode_desc = "800 rounds per minute",   automatic = 1, fire_delay = 1.2, burst_size = 1, icon="auto") //This is as fast as weapons should ever fire
+#define FULL_AUTO_800		list(mode_name = "fuller auto",  mode_desc = "800 rounds per minute",   automatic = 1, fire_delay = 1.2, burst_size = 1, icon="auto")
+#define FULL_AUTO_MINIGUN	list(mode_name = "minigun auto",  mode_desc = "a lot of rounds per minute",   automatic = 1, fire_delay = 1.05, burst_size = 1, icon="auto")
 
 /// Bullet zone favoring defines
 /// High accuracy, generally goes where you mean to put it, for precision rifles and such

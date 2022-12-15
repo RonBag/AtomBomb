@@ -98,7 +98,7 @@
 	damage_multiplier = GUN_LESS_DAMAGE_T5
 	init_recoil = LMG_RECOIL(0.5)
 	init_firemodes = list(
-		FULL_AUTO_800
+		FULL_AUTO_MINIGUN
 	)
 
 	flags_1 = CONDUCT_1
