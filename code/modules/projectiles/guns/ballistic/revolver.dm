@@ -18,7 +18,7 @@
 	damage_multiplier = GUN_EXTRA_DAMAGE_0
 	init_recoil = HANDGUN_RECOIL(1)
 	init_firemodes = list(
-		SEMI_AUTO_SMG
+		SEMI_AUTO_PISTOL
 	)
 
 	equipsound = 'sound/f13weapons/equipsounds/pistolequip.ogg'
@@ -704,7 +704,7 @@
 	draw_time = GUN_DRAW_QUICK
 	damage_multiplier = GUN_EXTRA_DAMAGE_T1
 	init_firemodes = list(
-		SEMI_AUTO_SMG,
+		SEMI_AUTO_PISTOL,
 		BURST_2_ROUND
 	)
 
@@ -731,7 +731,7 @@
 	draw_time = GUN_DRAW_QUICK
 	damage_multiplier = GUN_EXTRA_DAMAGE_T1
 	init_firemodes = list(
-		SEMI_AUTO_SMG,
+		SEMI_AUTO_PISTOL,
 		BURST_3_ROUND
 	)
 
