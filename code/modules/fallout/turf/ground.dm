@@ -396,7 +396,7 @@
 		L.update_water()
 		if(L.check_submerged() <= 0)
 			return
-		if(!istype(newloc, /turf/open/indestructible/ground/outside/water))
+		if(!istype(newloc, /turf/open/water) && !istype(newloc, /turf/open/indestructible/ground/outside/water))
 			to_chat(L, span_warning("You climb out of \the [src]."))
 	..()
 
