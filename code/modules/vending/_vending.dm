@@ -161,7 +161,7 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	///Name of lighting mask for the vending machine
 	var/light_mask
 
-	var/force_free = FALSE
+	var/force_free = TRUE
 
 /obj/item/circuitboard
 	///determines if the circuit board originated from a vendor off station or not.
