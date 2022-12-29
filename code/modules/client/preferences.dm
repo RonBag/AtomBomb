@@ -514,7 +514,7 @@ Records disabled until a use for them is found
 				dat += "<span style='border: 1px solid #161616; background-color: #[facial_hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=facial;task=input'>Change</a><BR>"
 
 				dat += "</td>"
-/*
+
 			//Mutant stuff
 			var/mutant_category = 0
 
@@ -525,10 +525,10 @@ Records disabled until a use for them is found
 			if(mutant_category >= MAX_MUTANT_ROWS) //just in case someone sets the max rows to 1 or something dumb like that
 				dat += "</td>"
 				mutant_category = 0
-*/
+
 			// rp marking selection
 			// assume you can only have mam markings or regular markings or none, never both
-			/*var/marking_type
+			var/marking_type
 			if(parent.can_have_part("mam_body_markings"))
 				marking_type = "mam_body_markings"
 			if(marking_type)
@@ -661,7 +661,7 @@ Records disabled until a use for them is found
 
 			if(mutant_category)
 				dat += "</td>"
-				mutant_category = 0*/
+				mutant_category = 0
 
 			dat += "</tr></table>"
 
@@ -2268,7 +2268,7 @@ Records disabled until a use for them is found
 					var/selected_custom_speech_verb = input(user, "Choose your desired speech verb", "Character Preference") as null|anything in GLOB.speech_verbs
 					if(selected_custom_speech_verb)
 						custom_speech_verb = selected_custom_speech_verb
-/*
+
 				if("bodysprite")
 					var/selected_body_sprite = input(user, "Choose your desired body sprite", "Character Preference") as null|anything in pref_species.allowed_limb_ids
 					if(selected_body_sprite)
@@ -2377,7 +2377,7 @@ Records disabled until a use for them is found
 								if((MUTCOLORS_PARTSONLY in pref_species.species_traits) || ReadHSV(temp_hsv)[3] >= ReadHSV(MINIMUM_MUTANT_COLOR)[3]) // mutantcolors must be bright, but only if they affect the skin
 									color_list[color_number] = "#[sanitize_hexcolor(new_marking_color, 6)]"
 								else
-									to_chat(user, span_danger("Invalid color. Your color is not bright enough."))*/
+									to_chat(user, span_danger("Invalid color. Your color is not bright enough."))
 		else
 			switch(href_list["preference"])
 				//CITADEL PREFERENCES EDIT - I can't figure out how to modularize these, so they have to go here. :c -Pooj
